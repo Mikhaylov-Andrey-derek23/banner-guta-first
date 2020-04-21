@@ -1,0 +1,171 @@
+$widthBody : 320px;
+$heightBody : 480px;
+$images : url('images/320x480_atlas_.png');
+
+@keyframes banner{
+    0%{
+        transform: scale(1.1);
+        opacity: 0;
+    }
+    3%{
+        transform: scale(1.0);
+        opacity: 1;
+    }
+    7%{
+        transform: scale(1.0);
+        opacity: 1;
+    }
+    10%{
+        transform: scale(1.1);
+        opacity: 0;
+        background-size: 478% 197%;
+        background-position-x: 41%;
+        background-position-y: -11%;
+    }
+    11%{
+        opacity: 0;
+        background-size: 597% 195%;
+        background-position-x: 64%;
+        background-position-y: -25%;
+        transform: scale(1.1);
+    }
+    14%{
+        opacity: 1;
+        transform: scale(1);
+    }
+    17%{
+        opacity: 1;
+        transform: scale(1);
+    }
+    20%{
+        opacity: 0;
+        transform: scale(1.1);
+        background-size: 597% 195%;
+        background-position-x: 64%;
+        background-position-y: -25%;
+    }
+    21%{
+        opacity: 0;
+        background-size: 597% 195%;
+        background-position-x: 83%;
+        background-position-y: -4%;
+        
+    }
+    24%{
+        opacity: 1;
+        transform: scale(1);
+        background-size: 597% 195%;
+        background-position-x: 83%;
+        background-position-y: -4%;
+    }
+    55%{
+        opacity: 1;
+        transform: scale(1)
+    }
+    58%{
+        opacity: 0;
+        transform: scale(1.1);
+        background-size: 597% 195%;
+        background-position-x: 83%;
+        background-position-y: -4%;
+    }
+    59%{
+        opacity: 0;
+        background-size: 639% 283%;
+        background-position-x: 93%;
+        background-position-y: 83%;
+
+    }
+    62%{
+        opacity: 1;
+        background-size: 639% 283%;
+        background-position-x: 93%;
+        background-position-y: 83%;
+        transform: scale(1);
+    }
+    96%{
+        opacity: 1;
+        background-size: 639% 283%;
+        background-position-x: 93%;
+        background-position-y: 83%;
+        transform: scale(1)
+    }
+    100%{
+        opacity: 0;
+        background-size: 639% 283%;
+        background-position-x: 93%;
+        background-position-y: 83%;
+        transform: scale(1.1)
+    }
+}
+@keyframes bannerFon{
+    0%{
+
+    }
+    58%{
+        background-image: $images;
+
+
+    }
+    59%{
+        background-image: url('');
+        background-color: white;
+    }
+    100%{
+        background-color: white;
+    }
+}
+
+.container{
+    display: block;
+    width: $widthBody;
+    height: $heightBody;
+    background-image: $images;
+    background-repeat: no-repeat;
+    background-position-x: 37%;
+    background-position-y: 86%;
+    position: relative;
+    animation: bannerFon 15s infinite ;
+    z-index: 1;
+    overflow: hidden;
+    
+    .containerHeader{
+        position: absolute;
+        background-image: $images;
+        background-repeat: no-repeat;
+        background-position-x: 75%;
+        background-position-y: 51%;
+        width: $widthBody;
+        height: $heightBody*0.1;
+        z-index: 3;
+    }
+
+    .containerBody{
+        position: absolute;
+        animation: banner 15s infinite ;
+        top: $heightBody*0.1;
+        width: $widthBody;
+        height: $heightBody*0.77;
+        background-image: $images;
+        background-repeat: no-repeat;
+        background-size: 478% 197%;
+        background-position-x: 41%;
+        background-position-y: -11%;
+        z-index: 2;
+
+    }
+
+    .containerFooter{
+        position: absolute;
+        bottom: 0;
+        background-image: $images;
+        background-repeat: no-repeat;
+        background-position-x: 56%;
+        background-position-y: 94%;
+        width: $widthBody;
+        height: $heightBody*0.13;
+        z-index: 3;
+
+    }
+
+}

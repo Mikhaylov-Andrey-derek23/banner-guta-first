@@ -1,0 +1,301 @@
+@-webkit-keyframes banner {
+  0% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    opacity: 0;
+  }
+  3% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+  7% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+  10% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    opacity: 0;
+    background-size: 478% 197%;
+    background-position-x: 41%;
+    background-position-y: -11%;
+  }
+  11% {
+    opacity: 0;
+    background-size: 597% 195%;
+    background-position-x: 64%;
+    background-position-y: -25%;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  14% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  17% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  20% {
+    opacity: 0;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    background-size: 597% 195%;
+    background-position-x: 64%;
+    background-position-y: -25%;
+  }
+  21% {
+    opacity: 0;
+    background-size: 597% 195%;
+    background-position-x: 83%;
+    background-position-y: -4%;
+  }
+  24% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    background-size: 597% 195%;
+    background-position-x: 83%;
+    background-position-y: -4%;
+  }
+  55% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  58% {
+    opacity: 0;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    background-size: 597% 195%;
+    background-position-x: 83%;
+    background-position-y: -4%;
+  }
+  59% {
+    opacity: 0;
+    background-size: 639% 283%;
+    background-position-x: 93%;
+    background-position-y: 83%;
+  }
+  62% {
+    opacity: 1;
+    background-size: 639% 283%;
+    background-position-x: 93%;
+    background-position-y: 83%;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  96% {
+    opacity: 1;
+    background-size: 639% 283%;
+    background-position-x: 93%;
+    background-position-y: 83%;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    background-size: 639% 283%;
+    background-position-x: 93%;
+    background-position-y: 83%;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+
+@keyframes banner {
+  0% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    opacity: 0;
+  }
+  3% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+  7% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+  10% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    opacity: 0;
+    background-size: 478% 197%;
+    background-position-x: 41%;
+    background-position-y: -11%;
+  }
+  11% {
+    opacity: 0;
+    background-size: 597% 195%;
+    background-position-x: 64%;
+    background-position-y: -25%;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  14% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  17% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  20% {
+    opacity: 0;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    background-size: 597% 195%;
+    background-position-x: 64%;
+    background-position-y: -25%;
+  }
+  21% {
+    opacity: 0;
+    background-size: 597% 195%;
+    background-position-x: 83%;
+    background-position-y: -4%;
+  }
+  24% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    background-size: 597% 195%;
+    background-position-x: 83%;
+    background-position-y: -4%;
+  }
+  55% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  58% {
+    opacity: 0;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    background-size: 597% 195%;
+    background-position-x: 83%;
+    background-position-y: -4%;
+  }
+  59% {
+    opacity: 0;
+    background-size: 639% 283%;
+    background-position-x: 93%;
+    background-position-y: 83%;
+  }
+  62% {
+    opacity: 1;
+    background-size: 639% 283%;
+    background-position-x: 93%;
+    background-position-y: 83%;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  96% {
+    opacity: 1;
+    background-size: 639% 283%;
+    background-position-x: 93%;
+    background-position-y: 83%;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    background-size: 639% 283%;
+    background-position-x: 93%;
+    background-position-y: 83%;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+
+@-webkit-keyframes bannerFon {
+  0% {
+  }
+  58% {
+    background-image: url("images/320x480_atlas_.png");
+  }
+  59% {
+    background-image: url("");
+    background-color: white;
+  }
+  100% {
+    background-color: white;
+  }
+}
+
+@keyframes bannerFon {
+  0% {
+  }
+  58% {
+    background-image: url("images/320x480_atlas_.png");
+  }
+  59% {
+    background-image: url("");
+    background-color: white;
+  }
+  100% {
+    background-color: white;
+  }
+}
+
+.container {
+  display: block;
+  width: 320px;
+  height: 480px;
+  background-image: url("images/320x480_atlas_.png");
+  background-repeat: no-repeat;
+  background-position-x: 37%;
+  background-position-y: 86%;
+  position: relative;
+  -webkit-animation: bannerFon 15s infinite;
+          animation: bannerFon 15s infinite;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.container .containerHeader {
+  position: absolute;
+  background-image: url("images/320x480_atlas_.png");
+  background-repeat: no-repeat;
+  background-position-x: 75%;
+  background-position-y: 51%;
+  width: 320px;
+  height: 48px;
+  z-index: 3;
+}
+
+.container .containerBody {
+  position: absolute;
+  -webkit-animation: banner 15s infinite;
+          animation: banner 15s infinite;
+  top: 48px;
+  width: 320px;
+  height: 369.6px;
+  background-image: url("images/320x480_atlas_.png");
+  background-repeat: no-repeat;
+  background-size: 478% 197%;
+  background-position-x: 41%;
+  background-position-y: -11%;
+  z-index: 2;
+}
+
+.container .containerFooter {
+  position: absolute;
+  bottom: 0;
+  background-image: url("images/320x480_atlas_.png");
+  background-repeat: no-repeat;
+  background-position-x: 56%;
+  background-position-y: 94%;
+  width: 320px;
+  height: 62.4px;
+  z-index: 3;
+}
+/*# sourceMappingURL=style.css.map */
